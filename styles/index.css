@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chau+Philomene+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px; 
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-menu-item {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF2E7 ;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    height: 600px;
+}
+
+.main-about {
+    padding: 40px;
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 29px auto;
+}
+
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: rgb(133, 209, 114);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.container .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff
+}
+
+.container .box:hover .icon .fa {
+    font-size: 40px;
+}
+
+.container .box .content {
+    position: absolute;
+    text-align: center;
+    top: 95%;
+    height: calc(100% - 95px);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .box:hover .content {
+    top: 95px;
+    text-align: center;
+    opacity: 1;
+}
+
+.container .box .content h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+    color:#fff;
+    font-size: 24px;
+}
+
+.container .box .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:#fff;
+}
+
+.container .box:nth-child(1) .icon {
+    background: #319635;
+}
+.container .box:nth-child(1) {
+    background: #4caf50;
+}
+
+.container .box:nth-child(2) .icon {
+    background: #312fad;
+}
+.container .box:nth-child(2) {
+    background: #4975c7;
+}
+
+.container .box:nth-child(3) .icon {
+    background: #dd421f;
+}
+.container .box:nth-child(3) {
+    background: #dd8454;
+}
