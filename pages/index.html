@@ -12,6 +12,8 @@
 
 <body>
 <!--Navbar section-->
+<!-- WHY IS NOT ON THE RIGHT SIDE ANYMORE??!? -->
+    
     <header class="navbar">
         <nav class="navbar-menu">
             <a class="navbar-menu-item" href="about.html">Conheça a Veggo</a>
@@ -20,44 +22,161 @@
             <a class="navbar-menu-item" href="contact.html">Dúvidas</a>
         </nav>
     </header>
-<!--Banner section-->
-    <div class="banner">
-        <img id="logo" src="/images/veggoLogo.png" alt="">
-    </div>
+    <!--Banner section-->
 
-    <div class="main-about" id="about-us">
-        <h3>Sobre a Veggo!</h3>
-        
-        <p>A Veggo surgiu em 2018 com o intuito de blablablablabla. </p>
-        <div class="container">
-            <div class="box">
-                <div class="icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
-                <div class="content">
-                    <h3>Quem somos nós</h3>
-                    <p> sonhadores que blabla</p>
+    <!-- MAKE THE LOGO SMALLER AND RESPONSIVE ONLY UNTIL CERTAIN SIZE-->
+
+    <section> 
+        <div class="banner">
+            <img id="logo" src="/images/veggoLogo.png" alt="">
+        </div>
+    </section> 
+
+
+    <!-- 
+        MAKE IT BIGGER
+        CHANGE THE COLORS
+        MAKE IT RESPONSIVE
+        MAKE IT CENTERED ON THE PAGE
+        FIND A BACKGROUND
+     -->
+
+
+    <section class="fwh-slide">
+        <div class="main-about" id="about-us" >
+            <h3>Sobre a Veggo!</h3>
+            
+            <p>A Veggo surgiu em 2018 com o intuito de blablablablabla. </p>
+            <div class="container">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h3>Quem somos nós</h3>
+                        <p> sonhadores que blabla</p>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
-                <div class="content">
-                    <h3>Nossos Valores e Principios</h3>
-                    <p> blablabla</p>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h3>Nossos Valores e Principios</h3>
+                        <p> blablabla</p>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
-                <div class="content">
-                    <h3>Objetivo da Veggo</h3>
-                    <p> fazer com que blabla</p>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h3>Objetivo da Veggo</h3>
+                        <p> fazer com que blabla</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section> 
 
     <!-- NEXT STEEP EDIT THE BACKGROUND AND CREATE NEXT SESSION: MENU-->
+    <!-- https://1stwebdesigner.com/15-css-background-effects/ -->
+
+    <!-- <section class="fwh-slide">
+
+        <div class="global-page-containter">
+            <div class="menu-tabs">
+                <div class="tab-header">
+                    <div class="active">
+                        <i class="fa fa-code"></i> Menu 1
+                    </div>
+                    <div>
+                        <i class="fa fa-code"></i> Menu 2
+                    </div>
+                    <div> 
+                        <i class="fa fa-code"></i> Menu 3
+                    </div>
+                    <div> 
+                        <i class="fa fa-code"></i> Menu 4
+                    </div>
+
+
+                </div>
+
+                <div class="tab-indicator"></div>
+                <div class="tab-body">
+                    <div class="active">
+                        <h2>This is the menu section</h2>
+                        <p>here is the menuhere is the menuhere is the menuhere is the menuhere is the menuhere is the menuhere is the menu</p>
+                    </div>
+                    <div>
+                        <h2>This is the other menu section</h2>
+                        <p>here is the other menuhere is the other menuhere is the other menuhere is the other menuhere is the other menuhere is the other menu</p>
+                    </div>
+                    <div>
+                        <h2>This is the second menu section</h2>
+                        <p>here is the second menuhere is the second menuhere is the second menuhere is the second menuhere is the second menuhere is the last menuhere is the last menu</p>
+                    </div>
+                    <div>
+                        <h2>This is the last menu section</h2>
+                        <p>here is the last menuhere is the last menuhere is the last menuhere is the last menuhere is the last menuhere is the last menuhere is the last menu</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>  -->
+   
+   
+   <!--  TABS -->
+   <!-- 
+Need to:  
+- make a background
+- make the container stop moving when select each one
+-make it prettier
+-find pictures that makes sense
+-figure out why the bar thing is not working
+
+-->
+    <section class= "new-tabs">
+
+        <ul class="tabs">
+            <li class="active">Burgers</li>
+            <li>Menu semanal</li>
+            <li>Combos e Promoções</li>
+        </ul>
+
+        <div class="tab-container">
+            <div class="tab-content active">
+                <img src="/images/veggoLogo.png" alt="">
+                <p>
+                    Burgers BurgersBurgers
+                    Burgersbrugersrs
+                    buuurgers.
+                </p>
+            </div>
+        
+            <div class="tab-content">
+                <img src="/images/veggoLogo.png" alt="">
+                <p>
+                    Menu da semana blablabla
+                </p>
+            </div>  
+            <div class="tab-content">
+                <img src="/images/veggoLogo.png" alt="">
+                <p>
+                    Combo combo! 
+                    promocao promocao
+                </p>
+            </div>
+        </div>
 
 
 
+    </section>
+
+
+
+
+
+
+
+
+    <script src="/pages/index.js"></script>
 </body>
 
 
